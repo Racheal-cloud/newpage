@@ -1,0 +1,50 @@
+.sections {
+    padding: 2rem;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section__img {
+        flex: 1;
+        
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    }
+
+    .section__content {
+        flex: 1;
+        color: white;
+        padding: 2rem;
+        background: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2a2a2a;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+            
+            &:hover {
+                color: #af4261;
+                transform: translateX(10px);
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}

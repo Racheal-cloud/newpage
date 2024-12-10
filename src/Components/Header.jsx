@@ -27,13 +27,13 @@ const Header = () => {
                     <Link to ="/">About</Link>
                 </li>
                 <li>
-                    <Link to ="/">Projects</Link>
+                    <Link to ="/">Section</Link>
                 </li>
                 <li>
                     <Link to ="/">Blogs</Link>
                 </li>
                 <li>
-                    <Link to ="/">Contact</Link>
+                    <Link to ="/contact" className="nav-contact">Contact</Link>
                 </li>
              
             </ul>
